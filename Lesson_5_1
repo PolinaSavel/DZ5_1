@@ -1,0 +1,18 @@
+public class Lesson_5_1 {
+    public static void main (String [] args)
+    /*{
+        char [] array = new char[] {'P','o','l','i','n','a'};
+
+        for (char i : array) {
+            System.out.print(i);
+        }
+    }*/
+    {
+        String name = "Polina";
+        char [] charArray = name.toCharArray();
+
+        for (char i : charArray) {
+            System.out.print(i);
+        }
+    }
+}
